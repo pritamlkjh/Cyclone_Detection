@@ -1,0 +1,27 @@
+# Raw satellite datasets (large archives)
+data/
+Kalpana_Cyclones/
+Kalpana_Non_Cyclones/
+Insat_cyclone/
+Insat_non_cyclone/
+*.npz
+*.h5
+
+# Large preprocessed image tensor cache (norm.json and meta.csv are retained)
+cache/X.npy
+
+# Virtual environments & Python bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS, IDE, and archive files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.zip
